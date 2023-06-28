@@ -15,7 +15,7 @@ The objective is to predict employees churn so we can reduce it and save money t
 After cleaning the data the analysis revealed that there's a 16% churn rate.
 ![avg churn profile](images/churn_rate_employees_churn.png)
 
-I also found out that most employees who churned:
+Further investigation shows that most employees who churned:
 *  Had a low educational level.
 *  Were single at the time.
 *  Worked extra hours.
