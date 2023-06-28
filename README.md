@@ -17,7 +17,7 @@ After cleaning the data the analysis revealed that there's a 16% churn rate.
 
 I also found out that most employees who churned:
 *  Had a low educational level.
-*  Where single at the time.
+*  Were single at the time.
 *  Worked extra hours.
 *  Worked in sales.
 
