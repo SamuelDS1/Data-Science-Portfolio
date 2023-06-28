@@ -18,6 +18,7 @@ We'll use a Data set called employees. All the rows in the data (1470 observatio
 
 ## Analysis
 The analysis revealed that there's a 16% churn rate.
+
 ![avg churn profile](images/churn_rate_employees_churn.png)
 
 Further investigation shows that most employees who churned:
