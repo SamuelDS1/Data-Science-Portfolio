@@ -13,8 +13,8 @@ At the end we want to present our key findings through a visualization in Tablea
 
 
 ## Data 
-We'll use a Data set called employees. All the rows in the data represent one employee and describe certain characteristics about it. The data comes from a DS course, you can find it in here [Course](https://ds4b.teachable.com/courses).
-**Preprocessing and cleaning** the data was by far the most time-consuming task of the project. The only **data quility issue** encountered was the class inbalance in the churn variable.
+We'll use a Data set called employees. All the rows in the data (1470 observations) represent one employee and describe certain characteristics about it. The data comes from a DS course, you can find it in here [Course](https://ds4b.teachable.com/courses).
+**Preprocessing and cleaning** the data was by far the most time-consuming task of the project. The only **data quality issue** encountered was the class inbalance in the churn variable.
 
 ## Analysis
 The analysis revealed that there's a 16% churn rate.
@@ -32,10 +32,13 @@ Further investigation shows that most employees who churned:
 
 
 ## The ML Model
-I used a Random Forest Classifier for this Classification problem; as a Desition Tree is more likely biased. To select the best parameters for the model we used **hyperparameter tuning**, returning: {'max_depth': 9, 'min_samples_split': 4, 'min_samples_leaf': 2}.
+To solve the class imbalance issue mentioned at the beggining, I oversampled the smallest group (16% churn rate) to be 50-50 compared with the other group (employees who didn't churn).
+![feature importance](images/resample_churns.png)
+
+I used a **Random Forest Classifier** for this Classification problem; as a Desition Tree is more likely biased. To select the best parameters for the model we used **hyperparameter tuning**, returning: {'max_depth': 9, 'min_samples_split': 4, 'min_samples_leaf': 2}.
 
 ## Results 
-To identify the model's performance and results we used a ROC AUC score , a confusion matrix and a feature importance graph. 
+To identify the model's performance and results we used a ROC AUC score, a confusion matrix and a feature importance graph. 
 The models ROC AUC score is **0.90744**. 
 
 The confusion matrix performs really well and doesn't return too many type I and II errors.
