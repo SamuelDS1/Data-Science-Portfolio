@@ -12,15 +12,17 @@ The objective is to predict employees churn so we can reduce it and save money t
 
 
 ### Analysis
-After cleaning the data the analysis revealed that there's a 16% churn rate and 
-
+After cleaning the data the analysis revealed that there's a 16% churn rat.
 ![churn rate](images/churn_rate_employees_churn.png)
 
-Most employees who churned:
-*  Have a low educational level.
-*  Are single.
-*  Work extra hours.
-*  Work in sales. 
+I also found out that most employees who churned:
+*  Had a low educational level.
+*  Where single at the time.
+*  Worked extra hours.
+*  Worked in sales.
+
+![avg churn profile](images/avg_churn_profile.png)
+
 
 
 
