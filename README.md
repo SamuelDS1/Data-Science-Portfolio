@@ -33,6 +33,7 @@ Further investigation shows that most employees who churned:
 
 ## The ML Model
 To solve the class imbalance issue mentioned at the beggining, I oversampled the smallest group (16% churn rate) to be 50-50 compared with the other group (employees who didn't churn).
+
 ![feature importance](images/resample_churns.png)
 
 I used a **Random Forest Classifier** for this Classification problem; as a Desition Tree is more likely biased. To select the best parameters for the model we used **hyperparameter tuning**, returning: {'max_depth': 9, 'min_samples_split': 4, 'min_samples_leaf': 2}.
