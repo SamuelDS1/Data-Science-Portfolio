@@ -53,7 +53,7 @@ Now take a look at the feature importance graph.
 
 This is a Data Visualization made in Tableau Public, that can help technical and non-technical steakholders understand the impact of employees leaving the company. Click in [here](https://public.tableau.com/views/employees_churn_data_visualization/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link) to explore the complete interactive visualization.
 
-![Dashboard](images/Dashboard Employees Churn.png) 
+![feature importance](images/Dashboard_Employees_Churn.png)
 
 
 
