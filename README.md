@@ -63,17 +63,25 @@ To identify the model's performance and results we used a ROC AUC score, a confu
 The models ROC AUC score is **0.90744**. 
 
 The confusion matrix performs really well and doesn't return too many type I and II errors.
-![feature importance](images/conf_matrix.png)
+![](images/conf_matrix.png)
 
 Now take a look at the feature importance graph.
-![feature importance](images/ft_importance.png)
+![](images/ft_importance.png)
+
+The Random Forest positions this features as important.
+* Job Level: How high are they in the corporation, Directors for example have a high job level. 
+* Home distance: How far employees live from the office.
+* Extra hours: Whether or not employees work extra hours.
+* Works in sales.
+* Low Environmental Satisfaction.
+* Low Peer Satisfaction.
 
 
 This is a Data Visualization made in Tableau Public, that can help technical and non-technical steakholders understand the impact of employees leaving the company. Click in [here](https://public.tableau.com/views/employees_churn_data_visualization/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link) to explore the complete interactive visualization.
 
 The product shows risk across positions and **16%** churn rate, **337** employees at risk, and over **$5 million** USD in potential losses. 
 
-![feature importance](images/Dashboard_Employees_Churn.png)
+![](images/Dashboard_Employees_Churn.png)
 
 
 
