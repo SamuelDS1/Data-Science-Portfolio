@@ -1,6 +1,6 @@
 # Data Science Portfolio
 Hi! My name is Samuel. Take a look at my porfolio!
-Click in each header to see more about each project. If you want to see the scripts I used you'll find them inside each project.  
+Click in each header to see more about each project. If you want to see the scripts I used you'll find them inside of each project.  
 
 
 ## [Project 1: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%201:%20Employees%20Churn) 
@@ -13,7 +13,7 @@ The objective is to predict employees churn so we can reduce it and save money t
 
 ### Analysis
 After cleaning the data the analysis revealed that there's a 16% churn rate.
-![churn rate](images/churn_rate_employees_churn.png)
+![churn rate](images/churn_rate_employees_churn.png)<img src="image.png" width="200" height="100">
 
 I also found out that most employees who churned:
 *  Had a low educational level.
@@ -32,6 +32,8 @@ According to the Center of American Progress (CAP), the average turnover cost of
 * 21.4% for all cases (we will take this as more than 75k a year)
 
 You can see more detailed information at [Center of American Progress](https://www.americanprogress.org/article/there-are-significant-business-costs-to-replacing-employees/)
+
+Based on this information the potential losses can be up to **$5,470,760 USD**. 
 
 
 
