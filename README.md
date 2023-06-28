@@ -23,6 +23,17 @@ I also found out that most employees who churned:
 
 ![avg churn profile](images/avg_churn_profile.png)
 
+**Economic impact.**
+
+According to the Center of American Progress (CAP), the average turnover cost of employees based on their salary is:
+* 16.1% for salaries below $30,000 a year.
+* 19.7% for salaries below $50,000 a year.
+* 20.4% for salaries below $75,000 a year.
+* 21.4% for all cases (we will take this as more than 75k a year)
+
+You can see more detailed information at [Center of American Progress](https://www.americanprogress.org/article/there-are-significant-business-costs-to-replacing-employees/)
+
+
 
 
 
