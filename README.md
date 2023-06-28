@@ -37,3 +37,5 @@ Based on this information the potential losses can be up to **$5,470,760 USD**.
 
 
 
+
+
