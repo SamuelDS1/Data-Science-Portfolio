@@ -13,7 +13,7 @@ The objective is to predict employees churn so we can reduce it and save money t
 
 ### Analysis
 After cleaning the data the analysis revealed that there's a 16% churn rate.
-![churn rate](images/churn_rate_employees_churn.png)
+<img src="images/churn_rate_employees_churn.png" width="200" height="100">
 
 I also found out that most employees who churned:
 *  Had a low educational level.
