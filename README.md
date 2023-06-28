@@ -53,6 +53,7 @@ Now take a look at the feature importance graph.
 Based on this information the potential losses can be up to **$5,470,760 USD**. 
 
 
+This is a Data Visualization made in Tableau Public, that can help technical and non-technical steakholders understand the impact of employees leaving the company. Click in [here](https://public.tableau.com/views/employees_churn_data_visualization/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link) to explore the interactive visualization.
 <div class='tableauPlaceholder' id='viz1687980085967' style='position: relative'>
   <noscript>
     <a href='#'>
@@ -74,13 +75,6 @@ Based on this information the potential losses can be up to **$5,470,760 USD**.
     <param name='display_count' value='yes' /><param name='language' value='es-ES' />
   </object>
 </div>                
-
-
-```{js, embedcode}
-  var divElement = document.getElementById('viz1687980085967');                    
-  var vizElement = divElement.getElementsByTagName('object')[0];                    
-  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-```
 
 
 
