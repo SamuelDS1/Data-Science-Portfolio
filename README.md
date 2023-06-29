@@ -76,7 +76,6 @@ The Random Forest positions this features as important.
 * Low Environmental Satisfaction.
 * Low Peer Satisfaction.
 
-
 This is a Data Visualization made in Tableau Public, that can help technical and non-technical steakholders understand the impact of employees leaving the company. Click in [here](https://public.tableau.com/views/employees_churn_data_visualization/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link) to explore the complete interactive visualization.
 
 The product shows risk across positions and **16%** churn rate, **337** employees at risk, and over **$5 million** USD in potential losses. 
