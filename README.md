@@ -2,7 +2,17 @@ Welcome to my portfolio. I am Samuel, and I invite you to explore my projects. C
 
 Thank you for your interest.
 
-# [Project 1: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%201:%20Employees%20Churn) 
+# [Project: Predicting Fraud in Insurance Claims](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%3A%20Fraud%20Insurance) 
+
+In the insurance landscape, the battle against fraudulent claims has become a challenge for insurance companies worldwide. As losses incurred due to fraudulent activities continue to mount, it is important for insurance providers to adopt strategies that enable them to distinguish between genuine claims and fraud attempts. This project helps to address this issue by using predictive algorithm techniques to identify and preempt fraudulent insurance claims.
+
+## Problem 
+The problem is that fraud is really expensive for the insurance companies. According to the Coalition Against Insurance Fraud, insurance fraud amounts to approximately $80 billion each year in the United States alone.
+For example, the Federal Bureau of Investigation (FBI) reported COVID-19 related fraudulent insurance claims, where criminals used the confusion caused by the pandemic to file fraud claims.
+
+
+
+# [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%201:%20Employees%20Churn) 
 Employee churn, the phenomenon of employees leaving an organization, poses significant challenges for businesses in terms of productivity, morale, and financial implications. By leveraging the power of data, I have created a predictive model that effectively forecasts the likelihood of employees leaving a company.
 Through data analysis, I have identified key factors that contribute to employee attrition, such as the number of companies employees worked for before, monthly compensation and . By using decision trees, and random forests, I have developed a model that can anticipate employees churn with **90% precision**.
 
