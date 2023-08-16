@@ -64,6 +64,10 @@ Almost half of Frauds (47.19%) happend with cheap cars, between 20000 - 29000 . 
 
 ![](images/fraud_insurance/Frauds_by_Vehicle_Price.png)
 
+
+
+---
+
 # [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%3A%20Employees%20Churn) 
 Employee churn, the phenomenon of employees leaving an organization, poses significant challenges for businesses in terms of productivity, morale, and financial implications. By leveraging the power of data, I have created a predictive model that effectively forecasts the likelihood of employees leaving a company.
 Through data analysis, I have identified key factors that contribute to employee attrition, such as the number of companies employees worked for before, monthly compensation and . By using decision trees, and random forests, I have developed a model that can anticipate employees churn with **90% precision**.
