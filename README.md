@@ -45,7 +45,7 @@ The dataset contains **15,420 claims**. Each claim has 33 attributes describing 
 7. Product
 
 ## Analysis
-We want to analyze the data and start creating a profile for the usual fraudster.
+We want to analyze the data and start creating a profile for the usual fraudster. If you want to see how I cleaned the data take a look at the notebook in the repository, 
 
 ### Fraud
 The analysis shows that 88% of Frauds are commited by men, while 12% of the frauds left are commited by woman.
