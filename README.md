@@ -6,10 +6,44 @@ Thank you for your interest.
 
 In the insurance landscape, the battle against fraudulent claims has become a challenge for insurance companies worldwide. As losses incurred due to fraudulent activities continue to mount, it is important for insurance providers to adopt strategies that enable them to distinguish between genuine claims and fraud attempts. This project helps to address this issue by using predictive algorithm techniques to identify and preempt fraudulent insurance claims.
 
+
 ## Problem 
-The problem is that fraud is really expensive for the insurance companies. According to the Coalition Against Insurance Fraud, insurance fraud amounts to approximately $80 billion each year in the United States alone.
+The problem is that fraud is really expensive for the insurance companies. The insurance industry consists of more than 7,000 companies that collect over $1 trillion in premiums each year. The massive size of the industry contributes significantly to the cost of insurance fraud by providing more opportunities and bigger incentives for committing illegal activities. The total cost of insurance fraud (non-health insurance) is estimated to be more than $40 billion per year. That means Insurance Fraud costs the average U.S. family between $400 and $700 per year in the form of increased premiums. [source](https://www.fbi.gov/stats-services/publications/insurance-fraud).
 For example, the Federal Bureau of Investigation (FBI) reported COVID-19 related fraudulent insurance claims, where criminals used the confusion caused by the pandemic to file fraud claims.
 
+The **objective** is to understand fraud trends and build a product that analyzes transactions and makes fraud predictions using a Machine Leaening Algorithm.
+
+## The business process.
+The next diagram explains the fraudulent claim submition process. There is two moments in which we can make a prediction.
+
+1. Before the company accept to insures
+2. During the decision process, when an agent decides whether to grant the claim or not.
+
+## Predicion Frecuency
+It can be done in:
+1. Batches: If we decide to predict fraud during the decision process, as we have more time to double-check the policy holders information.
+2. Real-Time: If we want to make predictions just when the potential customer wants to acquire a policy.
+
+## Data Sources
+The dataset contains **15,420 claims**. Each claim has 33 attributes describing the following components:
+
+* Customer demographic details (age, sex, martial status)
+* Purchased Policy (policy type, vehicle category, number of supplements, agent type, etc)
+* Claim Circumstances (day/month/week claimed, policy report filed, witness present, past days between incident-policy report, incident-claim, etc)
+* Other customer data (number of cars, previous claims, driver rating, etc)
+* Fraud found (yes; 1 and no; 0)
+
+## Solution
+1. EDA
+2. Data Preprocessing
+3. Feature Engineering
+4. Feature selection
+5. Train model
+6. Model evaluation
+7. Product
+
+## Analysis
+The analysis showed that 
 
 
 # [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%201:%20Employees%20Churn) 
