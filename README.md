@@ -49,15 +49,19 @@ We want to analyze the data and start creating a profile for the usual fraudster
 
 ### Fraud
 The analysis shows that 88% of Frauds are commited by men, while 12% of the frauds left are commited by woman.
+
 ![](images/fraud_insurance/fraud_by_sex.png)
 
 The 23.87% of Frauds are from Pontiac cars, 20.85% from Toyotas, 16.59% from Hondas, and the left 38.59% comes from cars brands like Mazda, Chevrolet, Ford, VW and others.
+
 ![](images/fraud_insurance/Frauds_by_Car_Brand.png)
 
 The 85% of Frauds are from claims where the accident happened in an Urban area, but we can see a really strong class imbalance.
+
 ![](images/fraud_insurance/Frauds_by_Accident_Area.png)
 
 Almost half of Frauds (47.19%) happend with cheap cars, between 20000 - 29000 . The 30000 - 39000 price range takes 19.61% from all frauds.  
+
 ![](images/fraud_insurance/Frauds_by_Vehicle_Price.png)
 
 # [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%3A%20Employees%20Churn) 
