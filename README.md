@@ -43,10 +43,22 @@ The dataset contains **15,420 claims**. Each claim has 33 attributes describing 
 7. Product
 
 ## Analysis
-The analysis showed that 
+We want to analyze the data and start creating a profile for the usual fraudster.
 
+### Fraud
+The analysis shows that 88% of Frauds are commited by men, while 12% of the frauds left are commited by woman.
+![](Projects/Project: Fraud Insurance/pics/fraud_by_sex.png)
 
-# [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%201:%20Employees%20Churn) 
+The 23.87% of Frauds are from Pontiac cars, 20.85% from Toyotas, 16.59% from Hondas, and the left 38.59% comes from cars brands like Mazda, Chevrolet, Ford, VW and others.
+![](Projects/Project: Fraud Insurance/pics/Frauds_by_Car_Brand.png)
+
+The 85% of Frauds are from claims where the accident happened in an Urban area.
+![](Projects/Project: Fraud Insurance/pics/Frauds_by_Accident_Area.png)
+
+Almost half of Frauds (47.19%) happend with cheap cars, between 20000 - 29000 . The 30000 - 39000 price range takes 19.61% from all frauds.  
+![](Projects/Project: Fraud Insurance/pics/Frauds_by_Vehicle_Price.png)
+
+# [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%3A%20Employees%20Churn) 
 Employee churn, the phenomenon of employees leaving an organization, poses significant challenges for businesses in terms of productivity, morale, and financial implications. By leveraging the power of data, I have created a predictive model that effectively forecasts the likelihood of employees leaving a company.
 Through data analysis, I have identified key factors that contribute to employee attrition, such as the number of companies employees worked for before, monthly compensation and . By using decision trees, and random forests, I have developed a model that can anticipate employees churn with **90% precision**.
 
