@@ -16,7 +16,7 @@ The **objective** is to understand fraud trends and build a product that analyze
 ## The business process.
 The next diagram explains the fraudulent claim submition process. There is two moments in which we can make a prediction.
 
-![](Projects/Project: Fraud Insurance/pics/bp.png)
+![]()
 
 1. Before the company accept to insures
 2. During the decision process, when an agent decides whether to grant the claim or not.
@@ -49,16 +49,16 @@ We want to analyze the data and start creating a profile for the usual fraudster
 
 ### Fraud
 The analysis shows that 88% of Frauds are commited by men, while 12% of the frauds left are commited by woman.
-![](Projects/Project: Fraud Insurance/pics/fraud_by_sex.png)
+![](images/fraud_insurance/fraud_by_sex.png)
 
 The 23.87% of Frauds are from Pontiac cars, 20.85% from Toyotas, 16.59% from Hondas, and the left 38.59% comes from cars brands like Mazda, Chevrolet, Ford, VW and others.
-![](Projects/Project: Fraud Insurance/pics/Frauds_by_Car_Brand.png)
+![](images/fraud_insurance/Frauds_by_Car_Brand.png)
 
-The 85% of Frauds are from claims where the accident happened in an Urban area.
-![](Projects/Project: Fraud Insurance/pics/Frauds_by_Accident_Area.png)
+The 85% of Frauds are from claims where the accident happened in an Urban area, but we can see a really strong class imbalance.
+![](images/fraud_insurance/Frauds_by_Accident_Area.png)
 
 Almost half of Frauds (47.19%) happend with cheap cars, between 20000 - 29000 . The 30000 - 39000 price range takes 19.61% from all frauds.  
-![](Projects/Project: Fraud Insurance/pics/Frauds_by_Vehicle_Price.png)
+![](images/fraud_insurance/Frauds_by_Vehicle_Price.png)
 
 # [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%3A%20Employees%20Churn) 
 Employee churn, the phenomenon of employees leaving an organization, poses significant challenges for businesses in terms of productivity, morale, and financial implications. By leveraging the power of data, I have created a predictive model that effectively forecasts the likelihood of employees leaving a company.
