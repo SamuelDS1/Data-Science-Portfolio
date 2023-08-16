@@ -16,7 +16,7 @@ The **objective** is to understand fraud trends and build a product that analyze
 ## The business process.
 The next diagram explains the fraudulent claim submition process. There is two moments in which we can make a prediction.
 
-![]()
+![](images/fraud_insurance/bp.png)
 
 1. Before the company accept to insures
 2. During the decision process, when an agent decides whether to grant the claim or not.
