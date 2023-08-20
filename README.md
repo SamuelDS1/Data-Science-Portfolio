@@ -93,7 +93,7 @@ So we can conclude that PolicyNumber helps the algorithm predict Fraud, because,
 
 But I decide to drop **PolicyNumber** because its not a trend we want our model to learn, mainly due to future changes in fraud transactions.
 
-Lets take a minute to understand what would really mean to train our model with this feature. It could mean that the newer the policy the more likely the model would predict fraud, which is something we dont want right? Because what if frauds increase after the time horizon we have available in the dataset (1996)?
+Lets take a minute to understand what would really mean to train our model with this feature. It could mean that the newer the policy the more likely the model would predict a no-fraudulent transaction, which is something we dont want right? Because what if frauds increase after 1996?
 
 ---
 
