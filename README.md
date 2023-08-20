@@ -36,6 +36,8 @@ The dataset contains **15,420 claims**. Each claim has 33 attributes describing 
 * Fraud found (yes; 1 and no; 0)
 
 ## Solution
+Take a look at the whole solution on the jupyter notebook in my [GitHub](https://github.com/SamuelDS1/Data-Science-Portfolio/blob/main/Projects/Project%3A%20Fraud%20Insurance/Fraud_Insurance_Claims.ipynb).
+
 1. EDA
 2. Data Preprocessing
 3. Feature Engineering
