@@ -73,6 +73,26 @@ Policy Holders between 31-40 years old is the Age group that commits more crime.
 
 ![](images/fraud_insurance/Fraud_by_Age_of_Policy_Holder.png)
 
+Lets see if the different Types of insurance Base Policies are increasing frauds. In the dataset there are 3 categories: 
+
+* **Collision**: It helps pay to repair or replace your car if it's damaged in an accident with another vehicle or object, such as a fence or a tree.
+* **Liability**: It helps cover medical and legal fees if you're held legally responsible for someone else's injury, or damage to someone else's property.
+* **All perils**: It is an insurance policy that would cover all the risks unless these are explicitly excluded in the policy text
+
+![](images/fraud_insurance/Claims_by_Base_Policy.png)
+
+Liability Base Policies have the least amount of frauds out of the 3 types. This could mean that most of Policy Holders that have a Liability Base Policy are better covered and therefore they feel less preassure to commit fraud.
+
+But I think that is easier to commit fraud when you hit a Fence or a tree (Collision) rather than another person's car, even more, when someone else got hurt.
+
+**So, I think that fraud is harder to commit Fraud for "Liability" Policy Holders because you are adding another variable; another person's injury or damage to their property.**
+
+What type of cars suffer frauds the most?
+
+Sedan cars (from the 3 categories) suffer fraud the most, followed by sports cars and utility vehicles. I would suppouse that theres not too much advantage from commiting fraud with sport cars.
+
+![](images/fraud_insurance/Claims_by_Vehicle_Category.png)
+
 
 ## Feature Selection 
 During the feature selection process we identified that the PolicyNumber feature had heavy importance.
