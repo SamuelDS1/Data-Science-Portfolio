@@ -36,7 +36,7 @@ The dataset contains **15,420 claims**. Each claim has 33 attributes describing 
 * Fraud found (yes; 1 and no; 0)
 
 ## Solution
-Take a look at the whole solution on the jupyter notebook in my [GitHub](https://github.com/SamuelDS1/Data-Science-Portfolio/blob/main/Projects/Project%3A%20Fraud%20Insurance/Fraud_Insurance_Claims.ipynb).
+Take a look at the whole solution on the [jupyter notebook](https://github.com/SamuelDS1/Data-Science-Portfolio/blob/main/Projects/Project%3A%20Fraud%20Insurance/Fraud_Insurance_Claims.ipynb).
 
 1. EDA
 2. Data Preprocessing
@@ -47,9 +47,8 @@ Take a look at the whole solution on the jupyter notebook in my [GitHub](https:/
 7. Product
 
 ## Analysis
-We want to analyze the data and start creating a profile for the usual fraudster. If you want to see how I cleaned the data take a look at the notebook in the repository, 
+We want to analyze the data and start creating a profile for the usual fraudster. If you want to see how I cleaned the data take a look at the notebook in the repository. 
 
-### Fraud
 The analysis shows that 88% of Frauds are commited by men, while 12% of the frauds left are commited by woman.
 
 ![](images/fraud_insurance/fraud_by_sex.png)
@@ -66,7 +65,35 @@ Almost half of Frauds (47.19%) happend with cheap cars, between 20000 - 29000 . 
 
 ![](images/fraud_insurance/Frauds_by_Vehicle_Price.png)
 
+Vehicle of 7 or more years are the ones with more fraud listed in the data.
 
+![](images/fraud_insurance/Frauds_by_Vehicle_Age.png)
+
+Policy Holders between 31-40 years old is the Age group that commits more crime.
+
+![](images/fraud_insurance/Fraud_by_Age_of_Policy_Holder.png)
+
+
+## Feature Selection 
+During the feature selection process we identified that the PolicyNumber feature had heavy importance.
+
+![](images/fraud_insurance/ft_importance.png)
+
+Further analysis showed that the model assigned high importance to this feature because of its correlation with the time feature "Year". 
+
+As Year increases, PolicyNumber does too. The following graph shows that the PolicyNumber increases overtime (its assigned secuentially). 
+
+![](images/fraud_insurance/PolicyNumber_by_Years.png)
+
+But fraud does not increase overtime as we can see in the next figure.  
+
+![](images/fraud_insurance/fraud_1994_1996.png)
+
+So we can conclude that PolicyNumber helps the algorithm predict Fraud, because, a lower policy number means its an older policy, and there were less frauds at that time than today.
+
+But I decide to drop **PolicyNumber** because its not a trend we want our model to learn, mainly due to future changes in fraud transactions.
+
+Lets take a minute to understand what would really mean to train our model with this feature. It could mean that the newer the policy the more likely the model would predict fraud, which is something we dont want right? Because what if frauds increase after the time horizon we have available in the dataset (1996)?
 
 ---
 
