@@ -117,6 +117,27 @@ Lets take a minute to understand what would really mean to train our model with 
 
 ---
 
+## Training the model
+The next models were performance tested with balanced and imbalanced datasets.
+
+* Logistic Regression
+* Random Forest
+* SVM
+* Neural Network
+
+Results were not promising with the imbalanced dataset. There was 14208 no-fraudulent and 892 fraudulent claims; the data was balanced by reducing the amount of no-fraudulent as I didnt want to over represent fraudulent claims.
+
+The balanced dataset resulted in 1784 (892; 0 and 892; 1). 
+
+´ precision    recall  f1-score   support
+
+   Not Fraud       0.86      0.65      0.74       190
+       Fraud       0.72      0.90      0.80       194
+
+    accuracy                           0.78       384
+   macro avg       0.79      0.77      0.77       384
+weighted avg       0.79      0.78      0.77       384´
+
 # [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%3A%20Employees%20Churn) 
 Employee churn, the phenomenon of employees leaving an organization, poses significant challenges for businesses in terms of productivity, morale, and financial implications. By leveraging the power of data, I have created a predictive model that effectively forecasts the likelihood of employees leaving a company.
 Through data analysis, I have identified key factors that contribute to employee attrition, such as the number of companies employees worked for before, monthly compensation and . By using decision trees, and random forests, I have developed a model that can anticipate employees churn with **90% precision**.
