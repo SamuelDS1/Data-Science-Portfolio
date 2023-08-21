@@ -128,7 +128,7 @@ Results were not promising with the imbalanced dataset. There was 14208 no-fraud
 The balanced dataset resulted in 1784 (892; 0 and 892; 1). 
 
 ```
- precision    recall  f1-score   support
+ # precision    recall  f1-score   support
 
    Not Fraud       0.86      0.65      0.74       190
        Fraud       0.72      0.90      0.80       194
