@@ -141,8 +141,18 @@ weighted avg       0.79      0.78      0.77       384
 
 ```
 
+The table above means: Of all positive (fraud) cases the model identified **90%** of them, but, of all the cases the model labeled as positive only **72%** were actually positive.
+
+Then we performed Hyperparatemer Tunning, with final results:
+
+```
+ # Tuned DecisionTreeClassifier Parameters: {'min_samples_split': 4, 'min_samples_leaf': 2, 'max_depth': 7}
+   Tuned DecisionTreeClassifier Best Accuracy Score: 0.7589999999999999
+```
+And final ROC AUC Score of **0.7991**.
 
 
+---
 # [Project: Predicting Employees Churn](https://github.com/SamuelDS1/Data-Science-Portfolio/tree/main/Projects/Project%3A%20Employees%20Churn) 
 Employee churn, the phenomenon of employees leaving an organization, poses significant challenges for businesses in terms of productivity, morale, and financial implications. By leveraging the power of data, I have created a predictive model that effectively forecasts the likelihood of employees leaving a company.
 Through data analysis, I have identified key factors that contribute to employee attrition, such as the number of companies employees worked for before, monthly compensation and . By using decision trees, and random forests, I have developed a model that can anticipate employees churn with **90% precision**.
