@@ -115,8 +115,6 @@ But I decide to drop **PolicyNumber** because its not a trend we want our model 
 
 Lets take a minute to understand what would really mean to train our model with this feature. It could mean that the newer the policy the more likely the model would predict a no-fraudulent transaction, which is something we dont want right? Because what if frauds increase after 1996?
 
----
-
 ## Training the model
 The next models were performance tested with balanced and imbalanced datasets.
 
