@@ -127,6 +127,8 @@ Results were not promising with the imbalanced dataset. There was 14208 no-fraud
 
 The balanced dataset resulted in 1784 (892; 0 and 892; 1). 
 
+The best performing model was the RandomForestClasiffier. If you want to see how every model was tested check out the [jupyter notebook](https://github.com/SamuelDS1/Data-Science-Portfolio/blob/main/Projects/Project%3A%20Fraud%20Insurance/Fraud_Insurance_Claims.ipynb).
+
 ```
  # precision    recall  f1-score   support
 
