@@ -149,7 +149,7 @@ Then we performed Hyperparatemer Tunning, with final results:
  # Tuned DecisionTreeClassifier Parameters: {'min_samples_split': 4, 'min_samples_leaf': 2, 'max_depth': 7}
    Tuned DecisionTreeClassifier Best Accuracy Score: 0.7589999999999999
 ```
-And final ROC AUC Score of **0.7991**.
+And the final ROC AUC Score is **0.7991**, which is around **80%**.
 
 
 ---
